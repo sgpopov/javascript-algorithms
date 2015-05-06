@@ -7,7 +7,7 @@ module.exports = function (sort, algorithmName, reverse) {
     config = config || {};
 
     var size = config.size || 10;
-    var precision = config.precision || 2;
+    var precision = config.precision || 0;
     var multiplier = config.multiplier || 100;
     var array = [];
 
