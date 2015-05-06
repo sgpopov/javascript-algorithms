@@ -6,7 +6,7 @@ module.exports = function (sort, algorithmName, reverse) {
   function generateRandomArray(config) {
     config = config || {};
 
-    var size = config.size || 100;
+    var size = config.size || 10;
     var precision = config.precision || 2;
     var multiplier = config.multiplier || 100;
     var array = [];

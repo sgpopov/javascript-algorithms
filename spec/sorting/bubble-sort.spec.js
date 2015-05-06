@@ -1,8 +1,4 @@
-(function () {
-  'use strict';
+var sortTest = require('./sorting-base');
+var bubbleSort = require('../../algorithms/sorting/bubble-sort').bubbleSort;
 
-  var sortTest = require('./sorting-base');
-  var bubbleSort = require('../../algorithms/sorting/bubble-sort').bubbleSort;
-
-  sortTest(bubbleSort, 'Bubble Sort');
-}());
+sortTest(bubbleSort, 'Bubble Sort');
