@@ -12,5 +12,6 @@ node_modules
 .stylishconfig
 coverage/
 
-# MacOS
+# Other
+TODO.md
 .DS_Store
