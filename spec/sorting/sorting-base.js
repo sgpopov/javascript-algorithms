@@ -29,22 +29,20 @@ module.exports = function (sort, algorithmName, reverse) {
 
     it('should work with random generated array', function () {
       var array = generateRandomArray();
+      var sorted = sort(array);
 
-      sort(array);
-
-      for (var i = array.length - 1; i > 0; i -= 1) {
-        expect(array[i] >= array[i - 1]).toBeTruthy();
+      for (var i = sorted.length - 1; i > 0; i -= 1) {
+        expect(sorted[i] >= sorted[i - 1]).toBeTruthy();
       }
     });
 
     if (reverse) {
       it('should sort the numbers in descending order', function () {
         var array = generateRandomArray();
+        var sorted = sort(array, reverse);
 
-        sort(array, reverse);
-
-        for (var i = array.length - 1; i > 0; i -= 1) {
-          expect(array[i] <= array[i - 1]).toBeTruthy();
+        for (var i = sorted.length - 1; i > 0; i -= 1) {
+          expect(sorted[i] <= sorted[i - 1]).toBeTruthy();
         }
       });
     }
