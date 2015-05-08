@@ -7,6 +7,14 @@ This is a collection of algorithms and data structures implemented in JavaScript
 
 # What's been implemented
 
+## Mathematics
+* Primes
+ + Is Prime
+ + Sieve of Eratosthenes
+ + Sieve of Sundaram
+ + Sieve of Atkin
+* Factorial
+
 ## Searching
 * Binary Search
 
