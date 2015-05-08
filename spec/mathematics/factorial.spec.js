@@ -1,4 +1,4 @@
-var factorial = require('../../algorithms/others/factorial').factorial;
+var factorial = require('../../algorithms/mathematics/factorial').factorial;
 
 describe('Factorial', function () {
   'use strict';
