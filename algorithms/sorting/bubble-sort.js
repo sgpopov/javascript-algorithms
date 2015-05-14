@@ -3,8 +3,8 @@
 
   /**
    *
-   * @param  {Number} a
-   * @param  {Number} b
+   * @param  {Number} a -
+   * @param  {Number} b -
    * @param  {Boolean} reverse - Whenever the sort order should be ASC or DESC.
    *
    * @return {Number} - The result of the arithmetic operation.
