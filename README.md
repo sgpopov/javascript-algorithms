@@ -7,13 +7,9 @@ This is a collection of algorithms and data structures implemented in JavaScript
 
 # What's been implemented
 
-## Mathematics
-* Primes
- + Is Prime
- + Sieve of Eratosthenes
- + Sieve of Sundaram
- + Sieve of Atkin
-* Factorial
+## Data Structures
+* Binary Search Tree
+* Linked List
 
 ## Searching
 * Binary Search
@@ -25,6 +21,21 @@ This is a collection of algorithms and data structures implemented in JavaScript
 * Odd-even Sort
 * Quick Sort
 * Selection Sort
+
+## Mathematics
+* Combinatorics
+    + Permutations
+    + Variations
+* Primes
+    + Is Prime
+    + Sieve of Eratosthenes
+    + Sieve of Sundaram
+    + Sieve of Atkin
+* Numbers
+    + Greatest Common Divisor
+        - Euclid's algorithm
+	+ Lowest Common Multiple
+	+ Factorial
 
 
 [travis-image]: https://img.shields.io/travis/svil4ok/javascript-algorithms/master.svg?style=flat-square
